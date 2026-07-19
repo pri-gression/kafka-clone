@@ -1,6 +1,6 @@
-package com.simpleKafka.broker; /* Address of this file */
+package com.simplekafka.broker; /* Address of this file */
 
-public class brokerInfo { /* Public class -  any other code is allowed to access this class */
+public class BrokerInfo { /* Public class -  any other code is allowed to access this class */
     private final int id;
     private final String host; /* Private: No other code can access this information, only access is the getter methods below */
     private final int port; /* Fixed final data, immutable */
